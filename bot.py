@@ -1,6 +1,6 @@
 import os, logging, asyncio
 
-
+from telegraph import Telegraph, upload_file, exceptions
 from telethon import Button
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
